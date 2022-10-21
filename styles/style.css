@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  font-family: "Rajdhani", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(../images/daniel-lee-japanese-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .background-effect {
+  background-color: rgba(38, 37, 31, 0.759);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 0 0.75rem 4rem;
+  background-color: #000;
+  box-shadow: 0 0.2rem 4px rgba(255, 255, 255, 0.416);
+}
+header figure img {
+  height: 8rem;
+}
+header h1 {
+  color: #fff;
+}
+
+main .small-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 3rem;
+  background-color: #000;
+  color: #fff;
+  margin: 3rem 0 0 0;
+}
+main .small-banner p {
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+}
+main .banner {
+  height: 35rem;
+  margin: 3rem 0 3rem 0;
+  border-width: 3px 0 3px 0;
+  border-style: solid;
+  border-color: #000;
+  box-shadow: 0 0.2rem 4px rgba(255, 255, 255, 0.211);
+  background-image: url("../images/sushi.jpg");
+  background-position: center;
+  position: relative;
+}
+main .banner:hover div {
+  width: 150px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.7;
+}
+main section ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+main section ul li {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+  width: 75%;
+  height: 15rem;
+  margin: 5rem 0 5rem 0;
+  padding: 0;
+  background-color: #000;
+  box-shadow: 0 0.2rem 4px rgba(255, 255, 255, 0.211);
+  color: #fff;
+}
+main section ul li .li-part1,
+main section ul li .li-part2,
+main section ul li .li-part3 {
+  flex: 1;
+  max-height: 100%;
+}
+main section ul li .li-part1 .attribution,
+main section ul li .li-part2 .attribution,
+main section ul li .li-part3 .attribution {
+  z-index: 2;
+}
+main section ul li .li-part3 {
+  display: flex;
+  justify-content: center;
+}
+main section ul li p {
+  font-size: 4rem;
+  font-style: italic;
+  border-bottom: 3px solid #fff;
+  margin: 0 0 0 5rem;
+}
+main section ul li img {
+  width: 750px;
+  border-left: 3px solid #fff;
+  border-right: 3px solid #fff;
+}
+main section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+main section ul li button {
+  all: unset;
+  width: 12rem;
+  height: 4rem;
+  background-color: red;
+  text-align: center;
+  font-size: 1.5rem;
+}
+main section ul .nigiri .li-part2 {
+  width: 100%;
+  height: 100%;
+}
+main section ul .nigiri .li-part2 figure {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/nigiri-mahmoud-fawzy.jpg);
+  background-repeat: no-repeat;
+  background-size: 50rem;
+  background-position-y: center;
+  border-left: 3px solid #fff;
+  border-right: 3px solid #fff;
+}
+main section ul .uramaki .li-part2 {
+  width: 100%;
+  height: 100%;
+}
+main section ul .uramaki .li-part2 figure {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/derek-duran-uramaki.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -30rem;
+  border-left: 3px solid #fff;
+  border-right: 3px solid #fff;
+}
+main section ul .sashimi .li-part2 {
+  width: 100%;
+  height: 100%;
+}
+main section ul .sashimi .li-part2 figure {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/haley-truong-sashimi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -25rem;
+}
+main section ul figure {
+  position: relative;
+}
+main section ul figure:hover div {
+  width: 150px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.7;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  height: 3rem;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0s, opacity 0.5s linear;
+}/*# sourceMappingURL=style.css.map */
